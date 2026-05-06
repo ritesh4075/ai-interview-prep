@@ -1,0 +1,43 @@
+{
+  "company": "TCS",
+  "style": "Mix of technical fundamentals, communication skills, and HR",
+  "rounds": ["Technical Round 1", "Technical Round 2", "Managerial Round", "HR Round"],
+  "questions": [
+    {
+      "question": "Explain the difference between OOP concepts: Abstraction, Encapsulation, Inheritance, and Polymorphism with examples.",
+      "type": "technical",
+      "round": "Technical Round 1",
+      "tip": "Give a real-world analogy for each concept."
+    },
+    {
+      "question": "What is a primary key and foreign key? How are they different?",
+      "type": "technical",
+      "round": "Technical Round 1",
+      "tip": "Mention referential integrity."
+    },
+    {
+      "question": "Tell me about yourself and why you want to join TCS.",
+      "type": "hr",
+      "round": "HR Round",
+      "tip": "Align your goals with TCS values: agility, innovation, inclusion."
+    },
+    {
+      "question": "Where do you see yourself in 3 years at TCS?",
+      "type": "hr",
+      "round": "HR Round",
+      "tip": "Show ambition but be realistic about growth path."
+    },
+    {
+      "question": "Describe a group project you worked on. What was your role and contribution?",
+      "type": "behavioral",
+      "round": "Managerial Round",
+      "tip": "Highlight teamwork, communication, and specific deliverables."
+    },
+    {
+      "question": "What is the difference between SQL and NoSQL databases? When would you use each?",
+      "type": "technical",
+      "round": "Technical Round 2",
+      "tip": "Give examples: PostgreSQL vs MongoDB. Mention CAP theorem briefly."
+    }
+  ]
+}

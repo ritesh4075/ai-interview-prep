@@ -1,0 +1,43 @@
+{
+  "company": "Amazon",
+  "style": "STAR format — Situation, Task, Action, Result",
+  "leadership_principles": [
+    "Customer Obsession", "Ownership", "Invent and Simplify",
+    "Are Right, A Lot", "Learn and Be Curious", "Hire and Develop the Best",
+    "Insist on the Highest Standards", "Think Big", "Bias for Action",
+    "Frugality", "Earn Trust", "Dive Deep", "Have Backbone",
+    "Deliver Results", "Strive to be Earth's Best Employer"
+  ],
+  "questions": [
+    {
+      "question": "Tell me about a time you had to make a decision without having all the information you needed.",
+      "principle": "Bias for Action",
+      "type": "behavioral",
+      "tip": "Show you can move fast with calculated risk. Quantify the outcome."
+    },
+    {
+      "question": "Describe a situation where you took ownership of a problem that wasn't technically your responsibility.",
+      "principle": "Ownership",
+      "type": "behavioral",
+      "tip": "Demonstrate initiative beyond your role."
+    },
+    {
+      "question": "Tell me about a time you disagreed with a team decision. What did you do?",
+      "principle": "Have Backbone; Disagree and Commit",
+      "type": "behavioral",
+      "tip": "Show respectful pushback followed by full commitment once decision was made."
+    },
+    {
+      "question": "Give me an example of a time you improved a process. What was the impact?",
+      "principle": "Invent and Simplify",
+      "type": "behavioral",
+      "tip": "Quantify improvements (time saved, cost reduced, efficiency gained)."
+    },
+    {
+      "question": "Describe a time you received critical feedback. How did you handle it?",
+      "principle": "Learn and Be Curious",
+      "type": "behavioral",
+      "tip": "Focus on growth mindset and concrete actions taken."
+    }
+  ]
+}

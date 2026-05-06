@@ -1,4 +1,4 @@
-# 🎯 AI Interview Preparation Platform
+# AI Interview Preparation Platform
 
 > An intelligent, full-stack interview preparation system powered by NLP, LLMs, and real-time AI feedback — built for Data Science portfolios.
 
@@ -11,7 +11,7 @@
 
 ---
 
-## 📌 Overview
+##  Overview
 
 This platform solves a real problem: students prepare for interviews randomly, with no structured feedback. This system provides:
 
@@ -44,7 +44,7 @@ This platform solves a real problem: students prepare for interviews randomly, w
 
 ---
 
-## 🧠 Data Science Components
+##  Data Science Components
 
 | Module | Technology | Purpose |
 |--------|-----------|---------|
@@ -69,7 +69,7 @@ This platform solves a real problem: students prepare for interviews randomly, w
 ### 1. Clone & Setup
 
 ```bash
-git clone https://github.com/yourusername/ai-interview-prep.git
+git clone https://github.com/ritesh4075/ai-interview-prep.git
 cd ai-interview-prep
 ```
 
