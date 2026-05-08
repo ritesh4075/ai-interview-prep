@@ -1,6 +1,7 @@
 import os
 import tempfile
 import numpy as np
+import whisper
 
 class VoiceAnalyzer:
     """
@@ -36,16 +37,17 @@ class VoiceAnalyzer:
 
     def _transcribe(self, audio_file) -> str:
         try:
-            import whisper
             model = whisper.load_model("base")
+
             with tempfile.NamedTemporaryFile(suffix=".wav", delete=False) as tmp:
                 tmp.write(audio_file.read())
                 tmp_path = tmp.name
+
             result = model.transcribe(tmp_path)
             os.unlink(tmp_path)
+
             return result["text"].strip()
-        except ImportError:
-            return "[Whisper not installed — run: pip install openai-whisper]"
+
         except Exception as e:
             return f"[Transcription failed: {e}]"
 
